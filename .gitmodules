@@ -1,0 +1,3 @@
+[submodule "BASE/ds000122"]
+	path = examples/data/ds000122
+	url = git@github.com:OpenNeuroDatasets/ds000122.git

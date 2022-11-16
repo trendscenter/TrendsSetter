@@ -1,0 +1,14 @@
+{
+    "do_validate":true,
+    "get_subjects":true,
+    "get_sessions":true,
+    "get_tasks":true,
+    "absolute_paths":true, 
+    "derivatives":false, 
+    "config":null, 
+    "sources":null, 
+    "regex_search":false, 
+    "database_path":null, 
+    "reset_database":false, 
+    "indexer":null
+}
