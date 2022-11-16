@@ -36,15 +36,13 @@ def create_parser() -> argparse.ArgumentParser:
         N/A
     """
     parser = argparse.ArgumentParser("BIDS Validation + Queries")
-    parser.add_argument("root-dir",
+    parser.add_argument("root_dir",
                         help="""The path of the BIDS""" +
                         """directory to validate/parse""",
-                        type=str,
-                        required=True)
-    parser.add_argument("output-dir",
+                        type=str)
+    parser.add_argument("output_dir",
                         help="The path to dump query output to",
-                        type=str,
-                        required=True)
+                        type=str)
     parser.add_argument("--output-file",
                         help="The name of the query output file (JSON)",
                         default="bids_validation.json",

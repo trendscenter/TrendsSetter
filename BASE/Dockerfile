@@ -87,4 +87,8 @@ RUN pep8 -v /app
 # ***************************** RUN CMD ****************************
 # The run command should reference your bash run script or python 
 # wrapper, which the user references as an entrypoint into the image
+ENV input_dir /input
+ENV output_dir /output
+ENV parameters /app/bids_validation/default_parameters.json
+RUN chmod -R +x /app/
 CMD /app/run.sh
