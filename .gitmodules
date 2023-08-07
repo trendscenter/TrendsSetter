@@ -1,3 +1,6 @@
 [submodule "examples/BASE/ds000122"]
 	path = examples/BASE/ds000122
 	url = git@github.com:OpenNeuroDatasets/ds000122.git
+[submodule "examples/bids-app-freesurfer"]
+	path = examples/bids-app-freesurfer
+	url = git@github.com:trendscenter/bids-app-freesurfer.git
