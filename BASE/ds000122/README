@@ -1,0 +1,28 @@
+This dataset was obtained from the OpenfMRI project (http://www.openfmri.org).
+Accession #: ds000122
+Description: Visual Attention Task (block design)
+
+Please cite the following references if you use these data:
+
+J Xu, S  Zhang, VD Calhoun, J Monterosso, MN Potenza 2013 Task-related concurrent but opposite modulations of overlapping functional networks as revealed by spatial ICA. NeuroImage 79:62-71 (PMCID: PMC3677796)
+
+04/08/2016: initial release
+
+This dataset is made available under the Public Domain Dedication and License 
+v1.0, whose full text can be found at 
+http://www.opendatacommons.org/licenses/pddl/1.0/. 
+We hope that all users will follow the ODC Attribution/Share-Alike 
+Community Norms (http://www.opendatacommons.org/norms/odc-by-sa/); 
+in particular, while not legally required, we hope that all users 
+of the data will acknowledge the OpenfMRI project and NSF Grant 
+OCI-1131441 (R. Poldrack, PI) in any publications.
+
+
+Events Headings:
+-ReactionTime: Reaction Time
+-ResponseButtonCode: Response Button Code (33 is hit, 
+0 is no response, others were wrong response)
+-OnsetBlock: Starting time of each block
+-OnsetTrial: Starting time of each trial
+-TaskLevel: Task level
+-TargetNontarget: 1=target; 0=nontarget

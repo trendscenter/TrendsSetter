@@ -1,0 +1,12 @@
+{
+    "TaskDescription": "The task is similar to the visual task used in a recent publication (Xu et al 2011). It uses 16 schematic faces as relevant stimuli and 64 scene pictures as background distractors. Faces were composed from different combinations of five facial features (shape of face, eyes, nose, and mouth, and face color). Each facial feature had two different forms (i.e., shapes: round and oval; colors: yellow and blue). No single face was completely unique in all facial features from other faces in the group, so that each face always shared one or more features with other faces.",
+    "CogAtlasID": "trm_4c8a84f20dde2",
+    "RepetitionTime": 1.5,
+    "TaskName": "visual attention task",
+    "EchoTime": 0.030,
+    "FlipAngle": 70.0,
+    "Manufacturer": "Siemens",
+    "ManufacturersModelName": "Allegra",
+    "FieldStrength": 3.0,
+    "ScanningSequence": "GR-EPI"
+}
